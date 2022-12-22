@@ -1,0 +1,84 @@
+body {
+  background-color: #FDFDBD;
+}
+
+.app {
+  background-color: white;
+  min-height: 85vh;
+  width: 350px;
+  margin: 30px auto;
+  border-radius: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center; 
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  font-family: 'Work Sans', sans-serif;
+  border-radius: 20px;
+  border: 1px solid grey;
+  color: grey;
+}
+
+ul, li{
+  list-style-type: none;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  padding: 5px;
+  margin: 0;
+}
+
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: #EFF5F5;
+}
+
+.btn{
+  width: 55%;
+  padding: 5px;
+  font-family: 'Work Sans', sans-serif;
+  border: none;
+  border-radius: 15px;
+  font-size: 14px;
+  color: grey;
+  font-weight: bold;
+}
+
+.add {
+  background-color: #C2F784;
+  margin-top: 15px;  
+}
+
+.delete {
+  background-color: #FFBF86; 
+  margin-top: 5px; 
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  color: grey;
+}
+
+.picture {
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+p {
+  color: darkslategrey;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+}
+
+.par {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  text-align: center;
+}
